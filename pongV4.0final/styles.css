@@ -1,0 +1,33 @@
+/* Import the Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.5rem; /* Tamaño de la fuente del título */
+    color: #333;
+}
+
+canvas {
+    width: 960px;  /* Establecer el ancho del canvas */
+    height: 540px; /* Establecer el alto del canvas */
+    background: #333; /* Color de fondo del canvas */
+    border: 2px solid black; /* Borde del canvas */
+    display: block;
+    margin: auto;
+}
+
+p {
+    font-size: 1.1rem; /* Tamaño de fuente de las instrucciones */
+    color: #555;
+    margin-top: 10px;
+}
